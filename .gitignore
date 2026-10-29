@@ -1,0 +1,35 @@
+# AttendEase .gitignore
+
+# Java / Spring Boot build artifacts
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/*.log
+
+# Node / React build artifacts
+**/node_modules/
+**/dist/
+**/build/
+.npm
+.eslintcache
+
+# Environment & Secret files
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
